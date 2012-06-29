@@ -4,6 +4,8 @@
 [ Released under the Creative Commons Attribution 3.0 United States license: http://creativecommons.org/licenses/by/3.0/us/ ]
 [ With apologies to the late Dorothy Sayers, whose 'Five Red Herrings' I am currently reading. ]
 
+When play begins: say "The panic over the supposed virus was sheer mass hysteria, but it was sufficient to clear out the Middletown Strip Mall. After a day or so, you venture into the mall to see what you can find of interest..."
+
 The story headline is "A Treasure Hunt Puzzle".
 
 Release along with the library card and the source text.
@@ -16,7 +18,7 @@ A thing can be a red herring. A thing is usually a red herring.
 
 A solution piece is a kind of thing. A solution piece is not a red herring.
 
-The tiny red fish is in the Strip Mall. "This tiny red fish is lying on the street. An obvious red herring."
+The tiny red fish is in the Strip Mall. "A tiny red fish is lying on the street. An obvious red herring."
 
 The judging device is a fixed in place device in the Strip Mall. "A booth on the street contains a judging device. The device has an instruction panel and an 'on' switch. Four trays are on top of the device, labeled 'Tray 1' through 'Tray 4'. Each tray is big enough to hold many objects."
 
