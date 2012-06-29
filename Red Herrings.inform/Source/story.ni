@@ -22,7 +22,7 @@ The tiny red fish is in the Strip Mall. "A tiny red fish is lying on the street.
 
 The judging device is a fixed in place device in the Strip Mall. "A booth on the street contains a judging device. The device has an instruction panel and an 'on' switch. Four trays are on top of the device, labeled 'Tray 1' through 'Tray 4'. Each tray is big enough to hold many objects."
 
-An instruction panel is part of the judging device. "Find four objects in the shops of the strip mall, and arrange them on the trays such that the first letters of the items form a word. Valuable prizes await!
+An instruction panel is part of the judging device. The description is "Find four objects in the shops of the strip mall, and arrange them on the trays such that the first letters of the items form a word. Valuable prizes await!
 
 But watch out for the red herrings! You don't want any of those. Some of them are hard to spot, so be careful."
 
