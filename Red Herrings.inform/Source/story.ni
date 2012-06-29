@@ -1,6 +1,6 @@
 "Red Herrings" by "Open Source Bridge 2012 Participants"
 
-[ Copyright © 2012 participants of the Open Source Bridge 2012 Inform 7 authoring session. ]
+[ Copyright © 2012 Bart Massey and participants in the Open Source Bridge 2012 Inform 7 authoring session. ]
 [ Released under the Creative Commons Attribution 3.0 United States license: http://creativecommons.org/licenses/by/3.0/us/ ]
 [ With apologies to the late Dorothy Sayers, whose 'Five Red Herrings' I am currently reading. ]
 
@@ -58,9 +58,9 @@ Section - Antique Shop
 
 The Antique Shop is northwest of the Strip Mall. "You stand in a cozy little antique shop. Very old and intricately detailed knick-knacks and doohickeys from all ages are scattered throughout the room."
 
-The table is fixed in place in the shop. "A long, antique table sits in the room."
+The antique shop table is fixed in place in the antique shop. "A long, antique table sits in the room."
 
-The shelf is fixed in place in the shop. "There is a shelf on the wall."
+The antique shop shelf is fixed in place in the antique shop. "There is a shelf on the wall."
 
 The vase is on the table. "A large red vase sits atop a antique table. The vase has a design of a fish leaping out of a stream of water."
 
@@ -68,37 +68,37 @@ The cuckoo clock is on the shelf. "A cuckoo clock sits on the shelf. It is beaut
 
 The lamp is on the table. "A red lamp sits atop the table. Fish circle around the lampshade."
 
-The anchor is in the Antique Shop. "An anchor rests on the floor, propped up against the wall. Its red paint has begun to peel with age and wear."
+The anchor is a solution piece in the Antique Shop. "An anchor rests on the floor, propped up against the wall. Its red paint has begun to peel with age and wear."
 
 The stuffed elephant is in the Antique Shop. "A stuffed elephant stands in the corner of the antique shop, as impressive to see in death as it was in life. It has a intricately woven cloth saddle with leaping red fish on it."
 
-The skeleton is in the shop. "A skeleton is propped up in a corner of the room by a stand. You can see that she has cracked ribs in the center of her chest, as if a thin blade was shoved through. A victim of some foul murder, perhaps? Someone has placed a red hat atop her head with fish designs on the brim."
+The skeleton is in the antique shop. "A skeleton is propped up in a corner of the room by a stand. You can see that she has cracked ribs in the center of her chest, as if a thin blade was shoved through. A victim of some foul murder, perhaps? Someone has placed a red hat atop her head with fish designs on the brim."
 
 The katana is on the table. "A katana rests on the table. Thin red ropes are wrapped about its hilt. It has a tassel attached to the hilt with an embroidered fish on it."
 
-The mannequin is in the shop. "A mannequin is hung up on a stand in the shop. It has a maroon dress with a herring bow pattern."
+The mannequin is in the antique shop. "A mannequin is hung up on a stand in the shop. It has a maroon dress with a herring bow pattern."
 
 Section - Memorabilia Store
 
 [by Thomas Scheiber thomas@ubiquill.com, chromatic@wgz.org, Jeff Eaton, bonsai@angrylittletree.com ]
 
-The Memorabilia Store is southwest of the Strip Mall. "A narrow room stretches before you. The wall are lined with signed posters, and triangular flags. The dust floats through the air.". Understand "sports bar" as the memorabilia store. Understand "Memories" as the memorabilia store.
+The Memorabilia Store is southwest of the Strip Mall. "A narrow room stretches before you. The wall are lined with signed posters, and triangular flags. The dust floats through the air.". Understand "sports bar" as the memorabilia store. Understand "memories" as the memorabilia store.
 
-The lager is in the bar. "It bubbles." The description is "Your palate detects a red ale".
+The lager is in the bar. "A glass of lager bubbles here." The description is "Your palate detects a red ale and an oily, fishy taste."
 
-The bar is fixed in place in the memorabilia. "The bar lines the far wall with dusty seats.".
+The memorabilia store bar is fixed in place in the memorabilia store. "The bar lines the far wall with dusty seats.".
 
-The lacrosse stick is in the memorabilia. "A well worn lacrosse stick stands against the wall.". The description is "The stick once belonged to the Fighting Fish.".
+The lacrosse stick is in the memorabilia store. "A well worn lacrosse stick stands against the wall.". The description is "The stick once belonged to the Fighting Fish.".
 
-The Lincoln campaign pamphlet is in the frame. The Lincoln campaign pamphlet is a solution piece. The description is "It looks like you can slide this out of the frame."
+The Lincoln campaign pamphlet is a solution piece. It is in the frame. The description is "It looks like you can slide this out of the frame."
 
 The frame is in the row of frames. The frame is an undescribed closed openable container. The description is "Sunlight glints off of this beautiful golden frame. It's closed, but doesn't appear to be locked.".
 
-The lenin statue is in the bar. It is a red herring. "A bronze Lenin glares at you. His eyes seem to follow you as you cross the room." The description is "I'm not looking at that.".
+The Lenin statue is in the bar. "A bronze Lenin glares at you. His eyes seem to follow you as you cross the room." The description is "I'm not looking at that.".
 
 The Liberian Flag is in the display case. "A folded flag rests here." The description is "Why would you take that! You would never get it folded again.".
 
-The row of frames is a fixed in place thing. It is in the memorabilia shop. "The row of frames are latched shut, and stretch to the back of the store.". The description is "One frame in the back seems to reach out to you."
+The row of frames is fixed in place in the memorabilia store. "The row of frames are latched shut, and stretch to the back of the store.". The description is "One frame in the back seems to reach out to you."
 
 Section - Fish Shop
 
@@ -110,9 +110,9 @@ Section - Fish Shop
      
     The Canadian Fish is in the freezer. The description of the Canadian Fish is "A herring impaled on a stick. A traditional snack of Canadians."
      
-    The Shelf is in the shop. The description of the shelf is "A dusty shelf. A rose-colored vase sits there, lonely."
+    The fish shop shelf is in the fish shop. The description of the shelf is "A dusty shelf. A rose-colored vase sits there, lonely."
      
-    The Rose Vase is on the shelf.  The description of the vase is "A rose-colored glass vase." The bottom is part of the vase. The description of the bottom is "A herring is inscribed on the bottom of the vase."
+    The Rose Vase is on the fish shop shelf.  The description of the vase is "A rose-colored glass vase." The vase bottom is part of the vase. The description of the vase bottom is "A herring is inscribed on the bottom of the vase."
      
     The Crimson Fish Key is a thing. The key unlocks the counter.
      
