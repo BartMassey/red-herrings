@@ -8,7 +8,7 @@ When play begins: say "The panic over the supposed virus was sheer mass hysteria
 
 The story headline is "A Treasure Hunt Puzzle".
 
-Release along with the library card and the source text.
+Release along with the library card, a website, cover art and the source text.
 
 Use no scoring.
 
