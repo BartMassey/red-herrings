@@ -4,15 +4,15 @@
 [ Released under the Creative Commons Attribution 3.0 United States license: http://creativecommons.org/licenses/by/3.0/us/ ]
 [ With apologies to the late Dorothy Sayers, whose 'Five Red Herrings' I am currently reading. ]
 
-[bugs: borked descriptions of mannequin dress, parts of judging device (trays, instructions). make foods edible and add some sensible eating plan.]
-
 When play begins: say "The panic over the supposed virus was sheer mass hysteria, but it was sufficient to clear out the Middletown Strip Mall. After a day or so, you venture into the mall to see what you can find of interest..."
 
 The story headline is "A Treasure Hunt Puzzle".
 
-Release along with the library card, a website, cover art and the source text.
+Release along with the library card, an interpreter, cover art and the source text.
 
 Use no scoring.
+
+Section - Strip Mall
 
 The Strip Mall is a room. "This dingy strip mall has but a few shops. There is a deli / bakery to the north, a fish shop to the south, an antique shop to the northwest, and a memorabilia store to the southwest."
 
@@ -20,15 +20,21 @@ A thing can be a red herring. A thing is usually a red herring.
 
 A solution piece is a kind of thing. A solution piece is not a red herring.
 
-The tiny red fish is in the Strip Mall. "A tiny red fish is lying on the street. An obvious red herring."
+The tiny red fish is in the Strip Mall. "A tiny red fish is lying on the street." The description is "An obvious red herring."
+
+Section - Judging Device
 
 A tray is a kind of supporter. Tray 1 and Tray 2 and Tray 3 and Tray 4 are trays. Every tray is part of the judging device. 
 
-To say the contents of (tray accounted - a tray): say "[tray accounted]: [list of things on tray accounted][line break]".
+To say the contents of (tray accounted - a tray): say "[tray accounted]: [list of things on tray accounted].".
 
-To say account of judging device trays when something is on a tray: repeat with the tray accounted running through trays; say the contents of the tray accounted; end repeat.
+To say tray account: say "The trays are currently filled as follows:[line break]"; repeat with the tray accounted running through trays begin; say the contents of the tray accounted; end repeat.
 
-The judging device is a fixed in place device in the Strip Mall. "A booth on the street contains a judging device. The device has an instruction panel and an 'on' switch. Four trays are on top of the device, labeled 'Tray 1' through 'Tray 4'. Each tray is big enough to hold many objects." The description is "[account of judging device trays]". Understand "trays" as the judging device.
+To say tray contents: if something is on the tray, say tray account; otherwise say "The trays currently sit empty."
+
+The judging device is a fixed in place device in the Strip Mall. "A booth on the street contains a judging device. The device has an instruction panel and an 'on' switch. Four trays are on top of the device, labeled 'Tray 1' through 'Tray 4'. Each tray is big enough to hold many objects." The description is "[tray contents]". Understand "trays" as the judging device.
+
+The examine devices rule is not listed in any rulebook.
 
 An instruction panel is part of the judging device. The description is "Find four objects in the shops of the strip mall, and arrange them on the trays such that the first letters of the items form a word. Valuable prizes await!
 
@@ -39,6 +45,12 @@ Check switching on the judging device: if something on a tray is a red herring o
 Carry out switching on the judging device: end the game saying "You triumphantly spell SALE using the initial letters of your finds. This is the secret word, for sure and certain. Congratulations! Five gold doubloons and a subscription to Puzzles Magazine (edited by Grace Long) clunk from a slot on the bottom of the judging device.
 
 You win!"
+
+Section - Food
+
+Food is a kind of thing. Food is usually edible. Food can be vile. It is usually not vile. Instead of eating something edible: if the noun is vile, say "That really doesn't look tasty. Really. Seriously? Look more closely. Uggh."; otherwise say "You aren't that hungry, and you're not that sure you're not eating something important. Besides, virus scare, remember? You pass."
+
+Section - Testing
 
 Test me with "take all / turn on device / test fish-shop / test deli / test antique-shop / test memorabilia-shop / put sushi on tray 1 / put anchor on tray 2 / put pamphlet on tray 3 / put pie on tray 4 / put fish on tray 3 / turn on device / get fish / turn on device".
 
@@ -56,13 +68,13 @@ Section - Deli
 
 The Deli is north of the Strip Mall. "A warm and inviting deli / bakery stretches around you. The entrance is to the south." Understand "bakery" as the Deli.
 
-The red potato herring salad is in the display case. The description is "This red potato herring salad looks pretty tasty."
+The red potato herring salad is food. It is in the display case. The description is "This red potato herring salad looks pretty tasty."
 
 The display case is a fixed in place open unopenable container in the Deli. "This display case is full of tasty treats."
 
-The eel pie is a solution piece in the display case. The description is "Mmm. Tasty eel pie."
+The eel pie is an edible solution piece in the display case. The description is "Mmm. Tasty eel pie."
 
-The maple bar is in the display case. The description is "This maple bar looks tasty. It has some kind of cream filling." The red cream filling is part of the maple bar. The description is "This filling has a reddish tinge. You take a taste. Uggh! Fishy!"
+The maple bar is vile food. It is in the display case. The description is "This maple bar looks tasty. It has some kind of cream filling." The red cream filling is part of the maple bar. The description is "This filling has a reddish tinge. You take a taste. Uggh! Fishy!"
 
 A grill pan is in the Deli. "A pan here looks perfect for grilling almost anything grillable." The description is "It has red stains, and a herringbone pattern."
 
@@ -90,7 +102,7 @@ The skeleton is a woman in the antique shop. "A chapeaued skeleton is propped up
 
 The katana is on the table. The description is "Thin red ropes are wrapped about the katana's hilt. It has a tassel attached to the hilt with an embroidered fish on it."
 
-The mannequin is in the antique shop. "A mannequin is hung up on a stand in the shop. It has a maroon dress with a herring bow pattern."
+The mannequin is in the antique shop. "A mannequin is hung up on a stand in the shop." The description is "This is a standard dressmaker's mannequin. It wears a simple dress." The simple maroon dress is part of the mannequin. The description is "A maroon dress with a herring bow pattern." The mannequin stand is fixed in place scenery in the antique shop.
 
 Section - Memorabilia Store
 
@@ -102,7 +114,7 @@ Some triangular flags are fixed in place scenery in the store. The description i
 
 The memorabilia store bar is fixed in place in the memorabilia store. "The bar lines the far wall with dusty bar stools." Some bar stools are fixed in place scenery in the store.
 
-The lager is in the bar. "A glass of lager bubbles here." The description is "Your palate detects a red ale and an oily, fishy taste."
+The lager is food in the bar. "A glass of lager bubbles here." The description is "Your palate detects a red ale and an oily, fishy taste."
 
 The lacrosse stick is in the memorabilia store. "A well worn lacrosse stick stands against the wall.". The description is "The stick once belonged to the Fighting Fish. Their scarlet uniforms graced lacrosse fields throughout the world."
 
@@ -124,19 +136,19 @@ Section - Fish Shop
      
     The Freezer is in the shop. The freezer is closed. The freezer is openable. The description of the freezer is "An ancient and eldritch freezer case. Encrusted in ice, you wonder what secrets it might hold."
      
-    The Swedish Fish are in the freezer. The description of the Swedish Fish is "You never did understand why they were called 'Swedish Fish.' They're neither Swedish nor fish, as far as you know." Understand "candy" as the Swedish Fish.
+    Some Swedish Fish are food in the freezer. The description of the Swedish Fish is "You never did understand why they were called 'Swedish Fish.' They're neither Swedish nor fish, as far as you know. They come in many colors: blue, green and red." Understand "candy" as the Swedish Fish.
      
-    The Canadian fish is in the freezer. The description of the Canadian fish is "A herring impaled bloodily on a stick. A traditional snack of Canadians."
+    The Canadian fish is vile food in the freezer. The description of the Canadian fish is "A herring impaled bloodily on a stick. A traditional snack of Canadians."
      
     The fish shop shelf is in the fish shop. The description of the shelf is "A dusty shelf."
      
     The rose vase is on the fish shop shelf.  The description is "A rose-colored glass vase." The vase bottom is part of the rose vase. The description of the vase bottom is "A herring is inscribed on the bottom of the vase."
      
-    The Crimson Fish Key is a thing. The key unlocks the counter.
+    The Crimson Fish Key is a thing. The key unlocks the counter. Rule for supplying a missing second noun while unlocking when the player holds the Crimson Fish Key: now the second noun is the Crimson Fish Key; say "(with the Crimson Fish Key)[command clarification break]".
      
     The Counter is in the shop. The counter is closed. The counter is openable. The counter is locked. The counter can be locked or unlocked. The description of the counter is "A traditional glass counter case. You can see fish, raw and prepared, inside, beyond a veil of precipitation."
      
-    The salmon sushi is a solution piece in the counter. The description of the sushi is "Sushi. Yummy sushi. Sticky, sticky, yummy sushi."
+    The salmon sushi is an edible solution piece in the counter. The description of the sushi is "Sushi. Yummy sushi. Sticky, sticky, yummy sushi."
      
-    The herringbone quilt is on the shelf. The description of the quilt is "A patchwork of pale pink fabric and herringbone." Carry out examining the quilt: say "Upon further examination, you spy a key hiding underneath the quilt."; now the key is on the shelf.
+    The herringbone quilt is on the shelf. The description of the quilt is "A patchwork of pale pink fabric and herringbone." After doing something to the quilt for the first time: say "You spy a key hiding underneath the quilt."; now the key is on the shelf.
 
