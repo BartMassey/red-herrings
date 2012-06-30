@@ -4,6 +4,8 @@
 [ Released under the Creative Commons Attribution 3.0 United States license: http://creativecommons.org/licenses/by/3.0/us/ ]
 [ With apologies to the late Dorothy Sayers, whose 'Five Red Herrings' I am currently reading. ]
 
+[bugs: borked descriptions of mannequin dress, parts of judging device (trays, instructions). make foods edible and add some sensible eating plan.]
+
 When play begins: say "The panic over the supposed virus was sheer mass hysteria, but it was sufficient to clear out the Middletown Strip Mall. After a day or so, you venture into the mall to see what you can find of interest..."
 
 The story headline is "A Treasure Hunt Puzzle".
@@ -20,13 +22,17 @@ A solution piece is a kind of thing. A solution piece is not a red herring.
 
 The tiny red fish is in the Strip Mall. "A tiny red fish is lying on the street. An obvious red herring."
 
-The judging device is a fixed in place device in the Strip Mall. "A booth on the street contains a judging device. The device has an instruction panel and an 'on' switch. Four trays are on top of the device, labeled 'Tray 1' through 'Tray 4'. Each tray is big enough to hold many objects."
+A tray is a kind of supporter. Tray 1 and Tray 2 and Tray 3 and Tray 4 are trays. Every tray is part of the judging device. 
+
+To say the contents of (tray accounted - a tray): say "[tray accounted]: [list of things on tray accounted][line break]".
+
+To say account of judging device trays when something is on a tray: repeat with the tray accounted running through trays; say the contents of the tray accounted; end repeat.
+
+The judging device is a fixed in place device in the Strip Mall. "A booth on the street contains a judging device. The device has an instruction panel and an 'on' switch. Four trays are on top of the device, labeled 'Tray 1' through 'Tray 4'. Each tray is big enough to hold many objects." The description is "[account of judging device trays]". Understand "trays" as the judging device.
 
 An instruction panel is part of the judging device. The description is "Find four objects in the shops of the strip mall, and arrange them on the trays such that the first letters of the items form a word. Valuable prizes await!
 
 But watch out for the red herrings! You don't want any of those. Some of them are hard to spot, so be careful."
-
-A tray is a kind of supporter. Tray 1 and Tray 2 and Tray 3 and Tray 4 are trays. Every tray is part of the judging device. 
 
 Check switching on the judging device: if something on a tray is a red herring or the salmon sushi is not on Tray 1 or the anchor is not on Tray 2 or the Lincoln campaign pamphlet is not on Tray 3 or the eel pie is not on Tray 4, instead say "You need to get just the required items in their exact right places. Either the items are scrambled, or you've caught a red herring. (There might be several words you could spell with the given letters. When you see the right one, you'll know what it is.) Please read the instructions and try again."
 
@@ -50,17 +56,17 @@ Section - Deli
 
 The Deli is north of the Strip Mall. "A warm and inviting deli / bakery stretches around you. The entrance is to the south." Understand "bakery" as the Deli.
 
-The red potato herring salad is in the display case. "This red potato herring salad looks pretty tasty."
+The red potato herring salad is in the display case. The description is "This red potato herring salad looks pretty tasty."
 
 The display case is a fixed in place open unopenable container in the Deli. "This display case is full of tasty treats."
 
 The eel pie is a solution piece in the display case. The description is "Mmm. Tasty eel pie."
 
-The maple bar is in the display case. "This maple bar looks tasty. It has some kind of cream filling." The red cream filling is part of the maple bar. "This filling has a reddish tinge. You take a taste. Uggh! Fishy!"
+The maple bar is in the display case. The description is "This maple bar looks tasty. It has some kind of cream filling." The red cream filling is part of the maple bar. The description is "This filling has a reddish tinge. You take a taste. Uggh! Fishy!"
 
 A grill pan is in the Deli. "A pan here looks perfect for grilling almost anything grillable." The description is "It has red stains, and a herringbone pattern."
 
-A box of napkins is an open unopenable container in the Deli. "A generic white box contains some napkins. No manufacturer's mark is immediately visible." The napkin box bottom is part of the box of napkins. The description of the napkin box bottom is "These napkins appear to be manufactured by Rehdairuhng Enterprises." Understand "box bottom" or "bottom of box" as the napkin box bottom. A paper napkin is a kind of thing. The description of a paper napkin is usually "This is a generic white napkin. Nothing obviously fishy about it.". 20 paper napkins are in the box of napkins.
+A box of napkins is an open unopenable container in the Deli. "A white box contains some napkins." The description is "A generic white box of napkins. From your vantage point, no manufacturer's mark is immediately visible." The napkin box bottom is part of the box of napkins. The description of the napkin box bottom is "These napkins appear to be manufactured by Rehdairuhng Enterprises." Understand "box bottom" or "bottom of box" as the napkin box bottom. A paper napkin is a kind of thing. The description of a paper napkin is usually "This is a generic white napkin. Nothing obviously fishy about it.". 20 paper napkins are in the box of napkins.
 
 Section - Antique Shop
 
@@ -104,7 +110,7 @@ The Lincoln campaign pamphlet is a solution piece. It is in the frame. The descr
 
 The frame is in the row of frames. The frame is an undescribed closed openable fixed in place container. The description of the frame is "Sunlight glints off of this beautiful golden frame. It looks like you can open it and slide the contents out." Understand "slide out [frame]" or "slide [frame]" as taking.
 
-Some bronze German Lenin and Marx statues are in the memorabilia store bar. "Bronze German statues of Mr. Vladimir Lenin and Mr. Karl Marx glare at you. Their eyes seem to follow you as you cross the room." The description of the statues is "I'm not looking at those."
+Some bronze German statues are in the memorabilia store bar. "The eyes of a couple of scary bronze busts seem to follow you as you cross the room. You're not sure you want to look at them too closely." The description is "Bronze German representations of Mr. Vladimir Lenin and Mr. Karl Marx." Understand "bust" or "marx" or "lenin" as statues.
 
 The Liberian Flag is in the memorabilia display case. "A folded flag rests here." Instead of taking the flag: say "Why would you take that! You would never get it folded again."
 
