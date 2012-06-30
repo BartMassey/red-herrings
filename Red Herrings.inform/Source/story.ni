@@ -40,9 +40,30 @@ An instruction panel is part of the judging device. The description is "Find fou
 
 But watch out for the red herrings! You don't want any of those. Some of them are hard to spot, so be careful."
 
-Check switching on the judging device: if something on a tray is a red herring or the salmon sushi is not on Tray 1 or the anchor is not on Tray 2 or the Lincoln campaign pamphlet is not on Tray 3 or the eel pie is not on Tray 4, instead say "You need to get just the required items in their exact right places. Either the items are scrambled, or you've caught a red herring. (There might be several words you could spell with the given letters. When you see the right one, you'll know what it is.) Please read the instructions and try again."
+A prize slot is part of the judging device. The description is "This hard-to-spot slot near the bottom of the device looks like a perfect place for a prize to appear."
 
-Carry out switching on the judging device: end the game saying "You triumphantly spell SALE using the initial letters of your finds. This is the secret word, for sure and certain. Congratulations! Five gold doubloons and a subscription to Puzzles Magazine (edited by Grace Long) clunk from a slot on the bottom of the judging device.
+The tray mis-loaded is a tray that varies.
+
+To decide whether a tray is mis-loaded: repeat with the tray tested running through trays begin; if the number of things on the tray tested is not 1 begin; now the tray mis-loaded is the tray tested; yes; end if; end repeat; no.
+
+To decide which indexed text is the initial letter of (the thing analyzed - a thing): decide on character number 1 in "[thing analyzed]" in upper case.
+
+To decide which indexed text is the currently-spelled word: let resulting text be an indexed text; let the resulting text be ""; repeat with the tray tested running through {Tray 1, Tray 2, Tray 3, Tray 4} begin; let the item tested be a random thing on the tray tested; let the resulting text be "[resulting text][initial letter of the item tested]"; end repeat; decide on the resulting text.
+
+To say word fail: say "this does not seem to be the word that you are looking for. The machine stays silent. Please try again."
+
+Table of Wrong Words
+wrong word		error message
+indexed text		text
+"ALES"		"You may need a drink"
+"LEAS"		"You are proud of yourself for knowing this obscure term for open ground"
+"SEAL"		"It might seem reasonable to 'un-SEAL' the device"
+"LASE"		"It's a bright idea"
+"ELSA"		"I'm sure 'ELSA' (whoever she is) is lovely"
+
+Check switching on the judging device: if a tray is mis-loaded, instead say "You need to put exactly one item on [the tray mis-loaded]. Please try again."; if something on a tray is a red herring, instead say "You've caught a red herring. Please try again."; let the word tried be the currently-spelled word; if there is a wrong word of the word tried in the Table of Wrong Words, instead say "[the error message corresponding to a wrong word of the word tried in the Table of Wrong Words], but '[the word tried]' is not the word you are looking for. The machine remains silent. Please try again.";  if the word tried is not "SALE", instead say "The first letters of the items on the trays spell out '[the word tried]'. You need to get the items in the right order. Right now, the items are scrambled, and don't seem to form a word. Please try again."
+
+Carry out switching on the judging device: end the game saying "You triumphantly spell 'SALE' using the initial letters of your finds. This is the secret word, for sure and certain. Congratulations! Five gold doubloons and a subscription to Puzzles Magazine (edited by Grace Long) clunk from a slot on the bottom of the judging device.
 
 You win!"
 
@@ -52,7 +73,13 @@ Food is a kind of thing. Food is usually edible. Food can be vile. It is usually
 
 Section - Testing
 
-Test me with "take all / turn on device / test fish-shop / test deli / test antique-shop / test memorabilia-shop / put sushi on tray 1 / put anchor on tray 2 / put pamphlet on tray 3 / put pie on tray 4 / put fish on tray 3 / turn on device / get fish / turn on device".
+Test me with "take all / turn on device / test fish-shop / test deli / test antique-shop / test memorabilia-shop / test load-slea / put fish on tray 3 / turn on device / get fish / turn on device / take all / test load-ales / turn on device / take all / test load-sale / turn on device".
+
+Test load-sale with "put sushi on tray 1 / put anchor on tray 2 / put pamphlet on tray 3 / put pie on tray 4".
+
+Test load-ales with "put sushi on tray 4 / put anchor on tray 1 / put pamphlet on tray 2 / put pie on tray 3".
+
+Test load-slea with "put sushi on tray 1 / put anchor on tray 4 / put pamphlet on tray 2 / put pie on tray 3".
 
 Test fish-shop with "s / x quilt / get key / unlock counter with key / open counter / get sushi / drop key / n".
 
