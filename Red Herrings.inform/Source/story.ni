@@ -24,6 +24,7 @@ The tiny red fish is in the Strip Mall. "A tiny red fish is lying on the street.
 
 Section - Judging Device
 
+[The order of tray declarations matters. There's a cleaner way to do this, but with only four trays this seemed fine.]
 A tray is a kind of supporter. Tray 1 and Tray 2 and Tray 3 and Tray 4 are trays. Every tray is part of the judging device.  Understand "put [thing] [tray]" as putting it on. Understand "place [thing] on/-- [tray]" as putting it on.  Understand "arrange [thing] on/-- [tray]" as putting it on.
 
 To say the contents of (tray accounted - a tray): say "[tray accounted]: [list of things on tray accounted].".
@@ -52,7 +53,7 @@ Definition: a tray is mis-loaded if the number of things on it is not 1.
 
 To decide which indexed text is the initial letter of (the thing analyzed - a thing): decide on character number 1 in "[thing analyzed]" in upper case.
 
-To decide which indexed text is the currently-spelled word: let resulting text be an indexed text; let the resulting text be ""; repeat with the tray tested running through {Tray 1, Tray 2, Tray 3, Tray 4} begin; let the item tested be a random thing on the tray tested; let the resulting text be "[resulting text][initial letter of the item tested]"; end repeat; decide on the resulting text.
+To decide which indexed text is the currently-spelled word: let resulting text be an indexed text; let the resulting text be ""; repeat with the tray tested running through trays begin; let the item tested be a random thing on the tray tested; let the resulting text be "[resulting text][initial letter of the item tested]"; end repeat; decide on the resulting text.
 
 To say word fail: say "this does not seem to be the word that you are looking for. The machine stays silent. Please try again."
 
