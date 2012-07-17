@@ -32,7 +32,7 @@ To say tray account: say "The trays are currently filled as follows:[line break]
 
 To say tray contents: if something is on the tray, say tray account; otherwise say "The trays currently sit empty."
 
-The judging device is a fixed in place device in the Strip Mall. "A booth on the street contains a judging device. A sign above it reads '[description of the judging device sign]'." The description is "The device has an instruction panel and an 'on' switch. Four trays are on top of the device, labeled 'Tray 1' through 'Tray 4'. Each tray is big enough to hold many objects.[paragraph break][tray contents]". Understand "trays" as the judging device.
+The judging device is a fixed in place device in the Strip Mall. "A booth on the street contains a judging device. A sign above it reads '[description of the judging device sign]'". The description is "The device has an instruction panel and an 'on' switch. Four trays are on top of the device, labeled 'Tray 1' through 'Tray 4'. Each tray is big enough to hold many objects.[paragraph break][tray contents]". Understand "trays" as the judging device.
 
 The judging device sign is fixed in place scenery in the Strip Mall. The description is "Mall Merchants Association Treasure Hunt! Valuable Prizes! See instructions below."
 
@@ -48,9 +48,7 @@ But watch out for the red herrings! You don't want any of those. A thing is a re
 
 A prize slot is part of the judging device. The description is "This hard-to-spot slot near the bottom of the device looks like a perfect place for a prize to appear."
 
-The tray mis-loaded is a tray that varies.
-
-To decide whether a tray is mis-loaded: repeat with the tray tested running through trays begin; if the number of things on the tray tested is not 1 begin; now the tray mis-loaded is the tray tested; yes; end if; end repeat; no.
+Definition: a tray is mis-loaded if the number of things on it is not 1.
 
 To decide which indexed text is the initial letter of (the thing analyzed - a thing): decide on character number 1 in "[thing analyzed]" in upper case.
 
@@ -67,7 +65,7 @@ indexed text		text
 "LASE"		"It's a bright idea"
 "ELSA"		"I'm sure 'ELSA' (whoever she is) is lovely"
 
-Check switching on the judging device: if a tray is mis-loaded, instead say "You need to put exactly one item on [the tray mis-loaded]. Please try again."; if something on a tray is a red herring, instead say "You've caught a red herring. Please try again."; let the word tried be the currently-spelled word; if there is a wrong word of the word tried in the Table of Wrong Words, instead say "[the error message corresponding to a wrong word of the word tried in the Table of Wrong Words], but '[the word tried]' is not the word you are looking for. The machine remains silent. Please try again.";  if the word tried is not "SALE", instead say "The first letters of the items on the trays spell out '[the word tried]'. You need to get the items in the right order. Right now, the items are scrambled, and don't seem to form a word. Please try again."
+Check switching on the judging device: if some tray is mis-loaded, instead say "[A random mis-loaded tray] is improperly loaded: it should contain exactly 1 item. Please load the device properly and try again."; if something on a tray is a red herring, instead say "You've caught a red herring. Please try again."; let the word tried be the currently-spelled word; if there is a wrong word of the word tried in the Table of Wrong Words, instead say "[the error message corresponding to a wrong word of the word tried in the Table of Wrong Words], but '[the word tried]' is not the word you are looking for. The machine remains silent. Please try again.";  if the word tried is not "SALE", instead say "The first letters of the items on the trays spell out '[the word tried]'. You need to get the items in the right order. Right now, the items are scrambled, and don't seem to form a word. Please try again."
 
 Carry out switching on the judging device: end the game saying "You triumphantly spell 'SALE' using the initial letters of your finds. This is the secret word, for sure and certain. Congratulations! Five gold doubloons and a subscription to Puzzles Magazine (edited by Grace Long) clunk from a slot on the bottom of the judging device.
 
