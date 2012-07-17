@@ -8,6 +8,6 @@ An easy way to try out the game is to visit the playable web
 page at
 [http://bartmassey.github.com/red-herrings](http://bartmassey.github.com/red-herrings).
 
-Red Herrings is released under the Creative Commons
+*Red Herrings* is released under the Creative Commons
 Attribution 3.0 United States license:
 [http://creativecommons.org/licenses/by/3.0/us](http://creativecommons.org/licenses/by/3.0/us).
