@@ -148,7 +148,7 @@ The memorabilia store bar is fixed in place in the memorabilia store. "The bar l
 
 A closed openable container called the store bar beverage cupboard is part of the memorabilia store bar. The description is "This cupboard provides convenient storage for potables."
 
-The lager is food on the store bar. The description is "Your palate detects a red ale and an oily, fishy taste."
+The lager is scenery food on the store bar. The description is "Your palate detects a red ale and an oily, fishy taste."
 
 The lacrosse stick is in the memorabilia store. "A well worn lacrosse stick stands against the wall.". The description is "The stick once belonged to the Fighting Fish. Their scarlet uniforms graced lacrosse fields throughout the world."
 
@@ -156,7 +156,7 @@ The Lincoln campaign pamphlet is a solution piece. It is in the frame. The descr
 
 The frame is in the row of frames. The frame is an undescribed closed openable fixed in place container. The description of the frame is "Sunlight glints off of this beautiful golden frame. It looks like you can open it and slide the contents out." Understand "slide out [frame]" or "slide [frame]" as taking.
 
-Some bronze German statues are on the memorabilia store bar. The description is "Bronze German representations of Mr. Vladimir Lenin and Mr. Karl Marx." Understand "bust" or "marx" or "lenin" as statues.
+Some bronze German statues are scenery on the memorabilia store bar. The description is "Bronze German representations of Mr. Vladimir Lenin and Mr. Karl Marx." Understand "bust" or "marx" or "lenin" as statues.
 
 The Liberian flag is in the memorabilia display case. "A folded flag rests here." Instead of taking the Liberian flag: say "Why would you take that! You would never get it folded again."
 
