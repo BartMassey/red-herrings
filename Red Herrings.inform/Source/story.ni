@@ -144,7 +144,7 @@ Some signed posters are fixed in place scenery in the store. The description is 
 
 Some triangular flags are fixed in place scenery in the store. The description is "These are the flags of many nations."
 
-The memorabilia store bar is fixed in place in the memorabilia store. "The bar lines the far wall with dusty barstools. A beverage cupboard is built into it.[if the lager is on the store bar]A bubbling glass of lager sits on the bar. [end if][if the German statues are on the store bar][paragraph break]The eyes of a couple of scary bronze busts perched on the bar seem to follow you as you cross the room. You're not sure you want to look at them too closely.[end if]". Some barstools are fixed in place scenery in the store.
+The memorabilia store bar is fixed in place in the memorabilia store. "The bar lines the far wall with dusty barstools. A beverage cupboard is built into it.[if the lager is on the store bar] A bubbling glass of lager sits on the bar.[end if][if the German statues are on the store bar][paragraph break]The eyes of a couple of scary bronze busts perched on the bar seem to follow you as you cross the room. You're not sure you want to look at them too closely.[end if]". Some barstools are fixed in place scenery in the store.
 
 A closed openable container called the store bar beverage cupboard is part of the memorabilia store bar. The description is "This cupboard provides convenient storage for potables."
 
