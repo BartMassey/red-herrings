@@ -169,7 +169,7 @@ Section - Fish Shop
      
     The freezer is in the shop. The freezer is closed. The freezer is openable. The description of the freezer is "An ancient and eldritch freezer case. Encrusted in ice, you wonder what secrets it might hold."
      
-    Some Swedish Fish are food in the freezer. The description of the Swedish Fish is "You never did understand why they were called 'Swedish Fish.' They're neither Swedish nor made from fish, as far as you know, but they're fish-shaped anyhow. The package contains many colors: blue, green and red." Understand "candy" as the Swedish Fish.
+    Some Swedish Fish are food in the freezer. The description of the Swedish Fish is "You never did understand why they were called 'Swedish Fish.' They're neither Swedish nor made from fish, as far as you know. Nonetheless they're fish-shaped, which seems pretty fishy. The package contains many colors: blue, green and red." Understand "candy" as the Swedish Fish.
      
     The Canadian fish is vile food in the freezer. The description of the Canadian fish is "A herring impaled bloodily on a stick. A traditional snack of Canadians."
      
@@ -182,7 +182,7 @@ Section - Fish Shop
     The Crimson Fish Key is a thing. The Crimson Fish Key unlocks the glass counter case. Rule for supplying a missing second noun while unlocking when the noun is the glass counter case and the player holds the Crimson Fish Key: now the second noun is the Crimson Fish Key; say "(with the Crimson Fish Key)[command clarification break]". Before opening the glass counter case when the glass counter case is locked and the player holds the Crimson Fish Key: say "(unlocking the case)[command clarification break]"; try unlocking the glass counter case with the Crimson Fish Key.
      
      
-    The salmon sushi is an edible solution piece in the counter. The description of the sushi is "Sushi. Yummy sushi. Sticky, sticky, yummy sushi." Understand "fish" or "raw fish" as the salmon sushi.
+    The saba sushi is an edible solution piece in the counter. The description of the sushi is "Sushi. Yummy sushi. Sticky, sticky, yummy sushi." Understand "fish" or "raw fish" as the saba sushi.
      
     The herringbone quilt is on the shelf. The description of the quilt is "A patchwork of dark pink cloth and patterned fabric." The dark pink fabric is part of the herringbone quilt. The description is "This dark pink cloth has a strong reddish tinge." The patterned fabric is part of the herringbone quilt. The description is "This fabric has a nice herringbone pattern." After doing something to the quilt for the first time: say "You spy a key hiding underneath the quilt."; now the key is on the shelf.
 
