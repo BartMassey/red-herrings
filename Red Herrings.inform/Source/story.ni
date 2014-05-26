@@ -31,7 +31,7 @@ To say the contents of (tray accounted - a tray): say "[tray accounted]: [list o
 
 To say tray account: say "The trays are currently filled as follows:[line break]"; repeat with the tray accounted running through trays begin; say the contents of the tray accounted; end repeat.
 
-To say tray contents: if something is on the tray, say tray account; otherwise say "The trays currently sit empty."
+To say tray contents: if something is on a tray, say tray account; otherwise say "The trays currently sit empty."
 
 The judging device is a fixed in place device in the Strip Mall. "A booth on the street contains a judging device. A sign above it reads '[description of the judging device sign]'". The description is "The device has an instruction panel and an 'on' switch. Four trays are on top of the device, labeled 'Tray 1' through 'Tray 4'. Each tray is big enough to hold many objects.[paragraph break][tray contents]". Understand "trays" as the judging device.
 
@@ -51,15 +51,14 @@ A prize slot is part of the judging device. The description is "This hard-to-spo
 
 Definition: a tray is mis-loaded if the number of things on it is not 1.
 
-To decide which indexed text is the initial letter of (the thing analyzed - a thing): decide on character number 1 in "[thing analyzed]" in upper case.
+To decide which text is the initial letter of (the thing analyzed - a thing): decide on character number 1 in "[thing analyzed]" in upper case.
 
-To decide which indexed text is the currently-spelled word: let resulting text be an indexed text; let the resulting text be ""; repeat with the tray tested running through trays begin; let the item tested be a random thing on the tray tested; let the resulting text be "[resulting text][initial letter of the item tested]"; end repeat; decide on the resulting text.
+To decide which text is the currently-spelled word: let resulting text be a text; let the resulting text be ""; repeat with the tray tested running through trays begin; let the item tested be a random thing on the tray tested; let the resulting text be "[resulting text][initial letter of the item tested]"; end repeat; decide on the resulting text.
 
 To say word fail: say "this does not seem to be the word that you are looking for. The machine stays silent. Please try again."
 
 Table of Wrong Words
 wrong word		error message
-indexed text		text
 "ALES"		"You may need a drink"
 "LEAS"		"You are proud of yourself for knowing this obscure term for open ground"
 "SEAL"		"It might seem reasonable to 'un-SEAL' the device"
@@ -68,7 +67,7 @@ indexed text		text
 
 Check switching on the judging device: if some tray is mis-loaded, instead say "[A random mis-loaded tray] is improperly loaded: it should contain exactly 1 item. Please load the device properly and try again."; if something on a tray is a red herring, instead say "You've caught a red herring. Please try again."; let the word tried be the currently-spelled word; if there is a wrong word of the word tried in the Table of Wrong Words, instead say "[the error message corresponding to a wrong word of the word tried in the Table of Wrong Words], but '[the word tried]' is not the word you are looking for. The machine remains silent. Please try again.";  if the word tried is not "SALE", instead say "The first letters of the items on the trays spell out '[the word tried]'. You need to get the items in the right order. Right now, the items are scrambled, and don't seem to form a word. Please try again."
 
-Carry out switching on the judging device: end the game saying "You triumphantly spell 'SALE' using the initial letters of your finds. This is the secret word, for sure and certain. Congratulations! Five gold doubloons and a subscription to Puzzles Magazine (edited by Grace Long) clunk from a slot on the bottom of the judging device.
+Carry out switching on the judging device: end the story saying "You triumphantly spell 'SALE' using the initial letters of your finds. This is the secret word, for sure and certain. Congratulations! Five gold doubloons and a subscription to Puzzles Magazine (edited by Grace Long) clunk from a slot on the bottom of the judging device.
 
 You win!"
 
