@@ -31,7 +31,7 @@ To say the contents of (tray accounted - a tray): say "[tray accounted]: [list o
 
 To say tray account: say "The trays are currently filled as follows:[line break]"; repeat with the tray accounted running through trays begin; say the contents of the tray accounted; end repeat.
 
-To say tray contents: if something is on the tray, say tray account; otherwise say "The trays currently sit empty."
+To say tray contents: if something is on a tray, say tray account; otherwise say "The trays currently sit empty."
 
 The judging device is a fixed in place device in the Strip Mall. "A booth on the street contains a judging device. A sign above it reads '[description of the judging device sign]'". The description is "The device has an instruction panel and an 'on' switch. Four trays are on top of the device, labeled 'Tray 1' through 'Tray 4'. Each tray is big enough to hold many objects.[paragraph break][tray contents]". Understand "trays" as the judging device.
 
@@ -51,15 +51,14 @@ A prize slot is part of the judging device. The description is "This hard-to-spo
 
 Definition: a tray is mis-loaded if the number of things on it is not 1.
 
-To decide which indexed text is the initial letter of (the thing analyzed - a thing): decide on character number 1 in "[thing analyzed]" in upper case.
+To decide which text is the initial letter of (the thing analyzed - a thing): decide on character number 1 in "[thing analyzed]" in upper case.
 
-To decide which indexed text is the currently-spelled word: let resulting text be an indexed text; let the resulting text be ""; repeat with the tray tested running through trays begin; let the item tested be a random thing on the tray tested; let the resulting text be "[resulting text][initial letter of the item tested]"; end repeat; decide on the resulting text.
+To decide which text is the currently-spelled word: let resulting text be a text; let the resulting text be ""; repeat with the tray tested running through trays begin; let the item tested be a random thing on the tray tested; let the resulting text be "[resulting text][initial letter of the item tested]"; end repeat; decide on the resulting text.
 
 To say word fail: say "this does not seem to be the word that you are looking for. The machine stays silent. Please try again."
 
 Table of Wrong Words
 wrong word		error message
-indexed text		text
 "ALES"		"You may need a drink"
 "LEAS"		"You are proud of yourself for knowing this obscure term for open ground"
 "SEAL"		"It might seem reasonable to 'un-SEAL' the device"
@@ -68,7 +67,7 @@ indexed text		text
 
 Check switching on the judging device: if some tray is mis-loaded, instead say "[A random mis-loaded tray] is improperly loaded: it should contain exactly 1 item. Please load the device properly and try again."; if something on a tray is a red herring, instead say "You've caught a red herring. Please try again."; let the word tried be the currently-spelled word; if there is a wrong word of the word tried in the Table of Wrong Words, instead say "[the error message corresponding to a wrong word of the word tried in the Table of Wrong Words], but '[the word tried]' is not the word you are looking for. The machine remains silent. Please try again.";  if the word tried is not "SALE", instead say "The first letters of the items on the trays spell out '[the word tried]'. You need to get the items in the right order. Right now, the items are scrambled, and don't seem to form a word. Please try again."
 
-Carry out switching on the judging device: end the game saying "You triumphantly spell 'SALE' using the initial letters of your finds. This is the secret word, for sure and certain. Congratulations! Five gold doubloons and a subscription to Puzzles Magazine (edited by Grace Long) clunk from a slot on the bottom of the judging device.
+Carry out switching on the judging device: end the story saying "You triumphantly spell 'SALE' using the initial letters of your finds. This is the secret word, for sure and certain. Congratulations! Five gold doubloons and a subscription to Puzzles Magazine (edited by Grace Long) clunk from a slot on the bottom of the judging device.
 
 You win!"
 
@@ -170,7 +169,7 @@ Section - Fish Shop
      
     The freezer is in the shop. The freezer is closed. The freezer is openable. The description of the freezer is "An ancient and eldritch freezer case. Encrusted in ice, you wonder what secrets it might hold."
      
-    Some Swedish Fish are food in the freezer. The description of the Swedish Fish is "You never did understand why they were called 'Swedish Fish.' They're neither Swedish nor made from fish, as far as you know, but they're fish-shaped anyhow. The package contains many colors: blue, green and red." Understand "candy" as the Swedish Fish.
+    Some Swedish Fish are food in the freezer. The description of the Swedish Fish is "You never did understand why they were called 'Swedish Fish.' They're neither Swedish nor made from fish, as far as you know. Nonetheless they're fish-shaped, which seems pretty fishy. The package contains many colors: blue, green and red." Understand "candy" as the Swedish Fish.
      
     The Canadian fish is vile food in the freezer. The description of the Canadian fish is "A herring impaled bloodily on a stick. A traditional snack of Canadians."
      
@@ -183,7 +182,7 @@ Section - Fish Shop
     The Crimson Fish Key is a thing. The Crimson Fish Key unlocks the glass counter case. Rule for supplying a missing second noun while unlocking when the noun is the glass counter case and the player holds the Crimson Fish Key: now the second noun is the Crimson Fish Key; say "(with the Crimson Fish Key)[command clarification break]". Before opening the glass counter case when the glass counter case is locked and the player holds the Crimson Fish Key: say "(unlocking the case)[command clarification break]"; try unlocking the glass counter case with the Crimson Fish Key.
      
      
-    The salmon sushi is an edible solution piece in the counter. The description of the sushi is "Sushi. Yummy sushi. Sticky, sticky, yummy sushi." Understand "fish" or "raw fish" as the salmon sushi.
+    The saba sushi is an edible solution piece in the counter. The description of the sushi is "Sushi. Yummy sushi. Sticky, sticky, yummy sushi." Understand "fish" or "raw fish" as the saba sushi.
      
     The herringbone quilt is on the shelf. The description of the quilt is "A patchwork of dark pink cloth and patterned fabric." The dark pink fabric is part of the herringbone quilt. The description is "This dark pink cloth has a strong reddish tinge." The patterned fabric is part of the herringbone quilt. The description is "This fabric has a nice herringbone pattern." After doing something to the quilt for the first time: say "You spy a key hiding underneath the quilt."; now the key is on the shelf.
 
