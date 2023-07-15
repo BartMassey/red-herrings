@@ -4,7 +4,7 @@
 [ Released under the Creative Commons Attribution 3.0 United States license: http://creativecommons.org/licenses/by/3.0/us/ ]
 [ With apologies to the late Dorothy Sayers, whose 'Five Red Herrings' I am currently reading. ]
 
-When play begins: say "The panic over the supposed virus was sheer mass hysteria, but it was sufficient to clear out the Middletown Strip Mall. After a day or so, you venture into the mall to see what you can find of interest..."
+When play begins: say "The panic over the supposed robot uprising was sheer mass hysteria, but it was sufficient to clear out the Middletown Strip Mall. After a day or so, you venture into the mall to see what you can find of interest..."
 
 The story headline is "A Treasure Hunt Puzzle".
 
@@ -73,7 +73,7 @@ You win!"
 
 Section - Food
 
-Food is a kind of thing. Food is usually edible. Food can be vile. It is usually not vile. Instead of eating something edible: if the noun is vile, say "That really doesn't look tasty. Really. Seriously? Look more closely. Uggh."; otherwise say "You aren't that hungry, and you're not that sure you're not eating something important. Besides, virus scare, remember? You pass."
+Food is a kind of thing. Food is usually edible. Food can be vile. It is usually not vile. Instead of eating something edible: if the noun is vile, say "That really doesn't look tasty. Really. Seriously? Look more closely. Uggh."; otherwise say "You aren't that hungry, and you're not that sure you're not eating something important. Besides, who knows how old that thing is, really? You pass."
 
 Section - Testing
 
