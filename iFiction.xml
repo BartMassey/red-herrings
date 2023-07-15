@@ -2,7 +2,7 @@
 <ifindex version="1.0" xmlns="http://babel.ifarchive.org/protocol/iFiction/">
     <story>
         <identification>
-            <ifid>92D5C3F0-B389-11E5-BC88-94DE80774D68</ifid>
+            <ifid>CF948F5F-8D66-4D09-AAD6-A29FA9B91E81</ifid>
             <format>glulx</format>
         </identification>
         <bibliographic>
@@ -10,7 +10,7 @@
             <author>Open Source Bridge 2012 Participants</author>
             <headline>A Treasure Hunt Puzzle</headline>
             <genre>Fiction</genre>
-            <firstpublished>2016</firstpublished>
+            <firstpublished>2023</firstpublished>
             <language>en</language>
             <group>Inform</group>
         </bibliographic>
@@ -23,22 +23,22 @@
         <releases>
             <attached>
                 <release>
-                    <releasedate>2016-01-05</releasedate>
+                    <releasedate>2023-07-15</releasedate>
                     <version>1</version>
                     <compiler>Inform 7</compiler>
-                    <compilerversion>6L38</compilerversion>
+                    <compilerversion>Inform 10.1.2 (build )</compilerversion>
                 </release>
             </attached>
         </releases>
         <colophon>
             <generator>Inform 7</generator>
-            <generatorversion>6L38</generatorversion>
-            <originated>2016-01-05</originated>
+            <generatorversion>Inform 10.1.2 (build )</generatorversion>
+            <originated>2023-07-15</originated>
         </colophon>
         <glulx>
-            <serial>160105</serial>
+            <serial>230715</serial>
             <release>1</release>
-            <compiler>Inform 7 build 6L38</compiler>
+            <compiler>Inform Inform 10.1.2 (build )</compiler>
             <coverpicture>1</coverpicture>
         </glulx>
     </story>
